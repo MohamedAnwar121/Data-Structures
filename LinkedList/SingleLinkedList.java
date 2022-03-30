@@ -119,14 +119,5 @@ public class SingleLinkedList implements ILinkedList {
         }
         return false;
     }
-
-    public void printLinkedList() {
-        System.out.print("[");
-        for (int i = 0; i < this.size; i++) {
-            System.out.print(this.get(i));
-            if (i != this.size - 1) System.out.print(", ");
-        }
-        System.out.print("]");
-    }
 }
 
